@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    background-image: url('Background.png'); ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 987px;
+    width: 1878px;
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 987px;
+    width: 1878px;
+}
+
+.Contain1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 805px;
+    height: 800px;
+}
+
+.Contain2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 805px;
+    height: 800px;
+}
+
+.Fish{
+    background-image: url('Fishies.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 724px;
+    width: 1373px;
+}
+
+.Texsts{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 600px;
+    width: 600px;
+}
+
+.H2Text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80px;
+    width: 600px;
+}
+
+.PText{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 200px;
+    width: 600px;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 23px;
+    width: 568px;
+    height: 300px;
+}
+
+.Buttons1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 17px;
+    width: 244px;
+    height: 300px;
+}
+
+.Buttons2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 17px;
+    width: 244px;
+    height: 300px;
+}
+
+P{
+    padding: 18px 0 0 25px;
+    width: 400px;
+    font-size: 22px ;
+    color: white;
+}
+
+.special{
+    padding: 4px 0 0 25px;
+    width: 400px;
+    font-size: 22px ;
+    color: white;
+}
+
+h2{
+    padding: 0 0 0 25px;
+    font-size: 50px;
+    color: white;
+}
+
+.DV{
+display: flex;
+justify-content: center;
+justify-items: center;
+border: 1px solid white;
+border-radius: 10px;
+width: 245px;
+height: 65px;
+}
+
+.DV2{
+display: flex;
+justify-content: center;
+justify-items: center;
+border: 1px solid white;
+border-radius: 10px;
+width: 220px;
+height: 65px;
+}
+
+button{
+    font-size: 15px;
+    color: white;
+    border: none;
+    background: none;
+}
+
+@media (max-width: 1750px) {
+    .Contain1{
+        width: 500px;
+    }
+}
+
+@media (max-width: 1650px) {
+    .Main{
+        width: 1600px;
+    }
+    .Contain1{
+        width: 700px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .Main{
+        width: 1500px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .Main{
+        width: 1435px;
+    }
+    .container{
+        background-repeat: repeat;
+        background-position: right;
+    }
+}
+
+@media (max-width: 1410px) {
+    .Contain2{
+        width: 660px;
+    }
+    .Fish{
+        height: 500px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .Contain2{
+        width: 725px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .Contain2{
+        width: 800px;
+    }
+    .Main{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .container{
+        height: 1320px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .Contain1{
+        height: 200px;
+        width: 500px;
+    }
+    .Contain2{
+        width: 970px;
+        height: 1000px;
+    }
+    .Fish{
+        height: 530px;
+    }
+    .container{
+        height: 1700px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .Contain2{
+        width: 1200px;
+        height: 1200px;
+    }
+    .Contain1{
+        height: 50px;
+        width: 250px;
+    }
+    .Fish{
+        height: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    .Contain2{
+        width: 1500px;
+    }
+    .Contain1{
+        width: 40px;
+    }
+}
+
+@media (max-width: 670px) {
+    .Contain1{
+        width: 0px;
+    }
+}
